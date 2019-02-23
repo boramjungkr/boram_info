@@ -1,0 +1,155 @@
+/* BASIC SETUP */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    text-rendering: optimizeLegibility;
+    font-weight: 300;
+    background-color: #fff;
+}
+
+.row {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+main {
+  float: right;
+}
+
+/* HEADING */
+
+.pic {
+  height: 200px;
+  width: auto;
+  display: inline-block;
+  float: left;
+  margin-top: 23px;
+  border-radius: 50%;
+}
+
+.name {
+  display: inline-block;
+  float: right;
+  text-align: right;
+  margin-right: 0;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 55px;
+  font-weight: lighter;
+  text-transform: uppercase;
+  letter-spacing: -3px;
+  margin-bottom: 30px;
+}
+
+h4 {
+  font-size: 22px;
+  font-weight: lighter;
+  letter-spacing: -1px;
+  text-transform: none;
+}
+
+hr {
+  border-width: 1px;
+  margin-top: 0;
+  overflow: hidden;
+}
+
+/* MAIN */
+
+.big {
+  height: 545px;
+  width: auto;
+  margin: 10px auto;
+}
+
+.feature-item {
+  text-align: center;
+}
+
+.img {
+  text-align: center;
+  width: 33.33%;
+}
+
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+  display:block;
+  width: -webkit-fill-available;
+}
+
+
+h2 {
+  font-size: 30px;
+  color: #bcbbbb;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+h3 {
+  font-size: 22px;
+  font-weight: lighter;
+  margin-bottom: 0;
+  letter-spacing: -1px;
+}
+
+h3 p {
+  margin: 0 auto;
+  display: inline-block;
+}
+
+
+/* FOOTER */
+
+footer {
+  margin-top: 30px;
+  clear: both;
+  text-align: center;
+}
+
+.social_links {
+    list-style: none;
+    vertical-align: middle;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 1023px) {
+  p {
+      font-size: 1.1em;
+  }
+
+  h2, h3 {
+      font-size: 1.3em;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  p {
+      font-size: 0.9em;
+  }
+
+  h2, h3 {
+      font-size: 1.1em;
+  }
+
+  aside {
+    display: none;
+  }
+}
+
+/* small phones : from 0 to 480px */
+@media only screen and (max-width: 480px) {
+  h1 {
+    font-size: 3.3em;
+  }
+
+  aside {
+    display: none;
+  }
+}
