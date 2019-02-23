@@ -10,6 +10,7 @@
     background-color: #fff;
 }
 
+
 .row {
   max-width: 1140px;
   margin: 0 auto;
@@ -22,11 +23,11 @@ main {
 /* HEADING */
 
 .pic {
-  height: 200px;
+  height: 280px;
   width: auto;
   display: inline-block;
   float: left;
-  margin-top: 23px;
+  margin-top: 30px;
   border-radius: 50%;
 }
 
@@ -39,11 +40,11 @@ main {
 }
 
 h1 {
-  font-size: 55px;
-  font-weight: lighter;
+  font-size: 73px;
   text-transform: uppercase;
-  letter-spacing: -3px;
-  margin-bottom: 30px;
+  margin-top: 45px;
+  letter-spacing: -6px;
+  margin-bottom: 85px;
 }
 
 h4 {
@@ -58,6 +59,20 @@ hr {
   margin-top: 0;
   overflow: hidden;
 }
+
+
+/* HOVER */
+
+a:link {
+color: #bcbbbb;
+}
+a:visited {
+color: #000000;
+}
+a:hover {
+color: #605e70;
+}
+
 
 /* MAIN */
 
@@ -83,12 +98,21 @@ hr {
   width: -webkit-fill-available;
 }
 
+.logo {
+  display: inline;
+  float: left;
+  width: 100px;
+  height: auto;
+  max-width: 100%;
+  margin: .5em 2em 0 0;
+}
 
 h2 {
   font-size: 30px;
   color: #bcbbbb;
   text-transform: uppercase;
   margin-bottom: 0;
+  letter-spacing: -1px;
 }
 
 h3 {
@@ -98,11 +122,13 @@ h3 {
   letter-spacing: -1px;
 }
 
-h3 p {
-  margin: 0 auto;
-  display: inline-block;
+p {
+  letter-spacing: -1px;
 }
 
+.content {
+  margin-left: 20px;
+}
 
 /* FOOTER */
 
@@ -114,7 +140,13 @@ footer {
 
 .social_links {
     list-style: none;
-    vertical-align: middle;
+}
+
+li {
+  list-style: none;
+  display:inline-block;
+  float:center;
+  font-size: 20px;
 }
 
 /* MEDIA QUERIES */
