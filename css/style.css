@@ -7,9 +7,9 @@
     font-family: 'Lato', sans-serif;
     text-rendering: optimizeLegibility;
     font-weight: 300;
+    font-size: 15.5px;
     background-color: #fff;
 }
-
 
 .row {
   max-width: 1140px;
@@ -22,12 +22,17 @@ main {
 
 /* HEADING */
 
+header {
+    margin-bottom: 35px;
+}
+
 .pic {
-  height: 280px;
+  height: 300px;
   width: auto;
   display: inline-block;
   float: left;
   margin-top: 30px;
+  margin-left: 10px;
   border-radius: 50%;
 }
 
@@ -89,6 +94,22 @@ color: #605e70;
 .img {
   text-align: center;
   width: 33.33%;
+  height: 45px;
+  vertical-align: middle;
+}
+
+.project {
+   opacity: 0.9;
+   -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+   transition: opacity 0.5s, -webkit-transform 0.5s;
+   transition: transform 0.5s, opacity 0.5s;
+   transition: transform 0.5s, opacity 0.5s, -webkit-transform 0.5s;
+}
+
+.project:hover {
+    opacity: 1;
+    -webkit-transform: scale(1.02);
+    transform: scale(1.02);
 }
 
 .img-responsive {
@@ -101,10 +122,13 @@ color: #605e70;
 .logo {
   display: inline;
   float: left;
-  width: 100px;
+  width: 90px;
   height: auto;
-  max-width: 100%;
-  margin: .5em 2em 0 0;
+  margin-right: 20px;
+}
+
+.duke {
+    margin-bottom: 35px;
 }
 
 h2 {
@@ -112,7 +136,7 @@ h2 {
   color: #bcbbbb;
   text-transform: uppercase;
   margin-bottom: 0;
-  letter-spacing: -1px;
+  letter-spacing: -1.2px;
 }
 
 h3 {
@@ -123,11 +147,15 @@ h3 {
 }
 
 p {
-  letter-spacing: -1px;
+  letter-spacing: -0.5px;
 }
 
 .content {
   margin-left: 20px;
+}
+
+.updated {
+  float: right;
 }
 
 /* FOOTER */
