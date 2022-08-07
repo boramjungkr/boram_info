@@ -27,7 +27,7 @@ header {
 }
 
 .main-nav {
-list-style-type:none;
+ list-style-type:none;
  height: 50px;
  padding: 1rem;
  color: white;
@@ -97,10 +97,12 @@ color: #605e70;
 .social_links {
     font-size: 0;
     list-style-type:none;
+    display: inline-block;
 }
 
 .icon {
   display: inline-block;
+  float: right;
   width:5%;
   height:5%;
 }
