@@ -33,12 +33,13 @@ header {
  color: black;
  display: inline-block;
  position: fixed;
+ z-index: 1;
+ width: 100%;
 }
 
 .main-nav li {
   font-weight: bold;
   justify-content: space-between;
-  float: right;
 }
 
 .pic {
