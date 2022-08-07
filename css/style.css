@@ -96,8 +96,8 @@ color: #605e70;
 /* MAIN */
 
 .social_links {
-    display:inline-block;
-    margin: 0 5px;
+    margin: 0 auto;
+    font-size: 0;
 }
 
 .social_icon {
