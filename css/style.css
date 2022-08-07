@@ -28,16 +28,15 @@ header {
 
 .main-nav {
  list-style-type:none;
- background-color: black;
- height: 50px;
- padding: 1rem;
- color: white;
+ margin: 0 15px;
+ padding: 0;
+ color: black;
+ display: inline-block;
 }
 
 .main-nav li {
   font-weight: bold;
   justify-content: space-between;
-  padding: 0px 10px 0px 10px;
   float: right;
 }
 
