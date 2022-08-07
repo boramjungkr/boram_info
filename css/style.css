@@ -34,7 +34,7 @@ header {
  font-weight: bold;
  display: flex;
  justify-content: space-between;
- margin:0 auto;
+ margin: 5px 0px 5px 0px;
  position: fixed;
  float: right;
 }
@@ -178,6 +178,8 @@ footer {
 
 .social_links {
     list-style: none;
+    padding-left:0px;
+    float:right;
 }
 
 li {
@@ -190,7 +192,7 @@ li {
   font-size: 5px;
   width:5%;
   height:5%"
-  display: inline;
+
 }
 /* MEDIA QUERIES */
 
