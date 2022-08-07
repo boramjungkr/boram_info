@@ -8,6 +8,7 @@
     <link href="https://unpkg.com/ionicons@4.4.4/dist/css/ionicons.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/grid.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 
     <nav>
         <div class="row">
@@ -29,6 +30,16 @@
 
         gtag('config', 'UA-106161400-2');
       </script>
+
+      <script type="text/javascript">
+            $(window).on('scroll',function(){
+                if($(window).scrollTop()){
+                    $('#header').addClass('active');
+                }else{
+                    $('#header').removeClass('active');
+                }
+            });
+        </script> 
 
       <title>boramjung_info</title>
   </head>
