@@ -32,6 +32,8 @@ header {
  padding: 0;
  color: black;
  display: inline-block;
+ position: fixed;
+ width: 100%;
 }
 
 .main-nav li {
