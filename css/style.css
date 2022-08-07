@@ -95,6 +95,19 @@ color: #605e70;
 
 /* MAIN */
 
+.social_links li {
+    list-style: none;
+    padding-left:0px;
+    display:inline-block;
+    float:right;
+}
+
+.icon {
+  display: inline-block;
+  width:5%;
+  height:5%;
+}
+
 .big {
   height: 545px;
   width: auto;
@@ -177,19 +190,6 @@ footer {
   text-align: center;
 }
 
-.social_links {
-    list-style: none;
-    padding-left:0px;
-    display:inline-block;
-}
-
-.icon {
-  display: inline-block;
-  float:right;
-  width:5%;
-  height:5%"
-
-}
 /* MEDIA QUERIES */
 
 @media only screen and (max-width: 1023px) {
