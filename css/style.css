@@ -180,12 +180,12 @@ footer {
 .social_links {
     list-style: none;
     padding-left:0px;
-    float:right;
     display:inline-block;
 }
 
 .icon {
-  font-size: 5px;
+  display: inline-block;
+  float:right;
   width:5%;
   height:5%"
 
