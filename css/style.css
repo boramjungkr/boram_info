@@ -27,19 +27,15 @@ header {
 }
 
 .main-nav {
-height: 75px;
+ height: 50px;
  padding: 1rem;
  color: white;
- background: teal;
+ background: 87F5F5;
  font-weight: bold;
  display: flex;
  justify-content: space-between;
- align-items: center;
+ margin:0 auto;
  position: fixed;
- top: 0;
- /* width: 100% */
- left: 0;
- right: 0;
 }
 
 .pic {
