@@ -27,6 +27,7 @@ header {
 }
 
 .main-nav {
+list-style-type:none;
  height: 50px;
  padding: 1rem;
  color: white;
@@ -35,9 +36,7 @@ header {
 .main-nav li {
   font-weight: bold;
   justify-content: space-between;
-  position: fixed;
   float: right;
-  margin: 5px 0px 5px 0px;
 }
 
 .pic {
@@ -97,6 +96,7 @@ color: #605e70;
 
 .social_links {
     font-size: 0;
+    list-style-type:none;
 }
 
 .icon {
