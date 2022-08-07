@@ -36,6 +36,7 @@ header {
  justify-content: space-between;
  margin:0 auto;
  position: fixed;
+ float: right;
 }
 
 .pic {
@@ -187,8 +188,9 @@ li {
 
 .icon {
   font-size: 5px;
-  width:10%;
-  height:10%"
+  width:5%;
+  height:5%"
+  display: inline;
 }
 /* MEDIA QUERIES */
 
