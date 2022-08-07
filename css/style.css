@@ -30,13 +30,14 @@ header {
  height: 50px;
  padding: 1rem;
  color: white;
- background: 87F5F5;
- font-weight: bold;
- display: flex;
- justify-content: space-between;
- margin: 5px 0px 5px 0px;
- position: fixed;
- float: right;
+}
+
+.main-nav li {
+  font-weight: bold;
+  justify-content: space-between;
+  position: fixed;
+  float: right;
+  margin: 5px 0px 5px 0px;
 }
 
 .pic {
