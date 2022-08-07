@@ -28,6 +28,7 @@ header {
 
 .main-nav {
  list-style-type:none;
+ background-color: black;
  height: 50px;
  padding: 1rem;
  color: white;
@@ -36,6 +37,7 @@ header {
 .main-nav li {
   font-weight: bold;
   justify-content: space-between;
+  padding: 0px 10px 0px 10px;
   float: right;
 }
 
@@ -155,12 +157,11 @@ color: #605e70;
 
 
 h2 {
-  font-size: 22px;
+  font-size: 30px;
   color: #bcbbbb;
   text-transform: uppercase;
   margin-bottom: 0;
   letter-spacing: -1.2px;
-
 }
 
 h3 {
