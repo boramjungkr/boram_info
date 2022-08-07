@@ -97,12 +97,12 @@ color: #605e70;
 
 .social_links {
     display:inline-block;
-    float:right;
     margin: 0 5px;
 }
 
-.icon {
+.social_icon {
   display: inline-block;
+  float:right;
   width:5%;
   height:5%;
 }
