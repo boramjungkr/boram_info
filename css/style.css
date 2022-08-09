@@ -35,14 +35,13 @@ header {
  z-index: 1;
  width: 100%;
  height:50px;
- background:blue;
+ background:black;
 }
 
 .main-nav li {
   font-weight: bold;
   justify-content: space-between;
   display: inline-block;
-  float: right;
   list-style-type:none;
   margin: 0 15px;
   padding: 0;
@@ -51,7 +50,6 @@ header {
   z-index: 1;
   width: 100%;
   height:50px;
-  background:blue;
 }
 
 .pic {
